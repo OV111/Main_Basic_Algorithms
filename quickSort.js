@@ -14,8 +14,8 @@ function quickSort(arr) {
             left.push(arr[i]);
         }
     }
-
+    
     return [...quickSort(left),pivot,...quickSort(right)];
 }
-let array = [1,4,5,2,7,13,3,35,9,8,0];
+let array = [10,4,5,2,7,13,3,35,9,8,0];
 console.log(quickSort(array));
