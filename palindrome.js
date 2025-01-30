@@ -18,3 +18,13 @@ function isPalindrome2(str){
    return str === result;
 }
 console.log(isPalindrome2("racecar")); // Output - true
+
+function isPalindromeRecurcisve(str,left = 0,right = str.length-1) {
+    if(left >= right) {
+        return true;
+    } else if(str[left] !== str[right]) {
+        return false;
+    }
+    return isPalindromeRecurcisve(str,left += 1,right -= 1);
+}
+console.log(isPalindromeRecurcisve("racecar"));
