@@ -27,4 +27,4 @@ function isPalindromeRecurcisve(str,left = 0,right = str.length-1) {
     }
     return isPalindromeRecurcisve(str,left += 1,right -= 1);
 }
-console.log(isPalindromeRecurcisve("racecar"));
+console.log(isPalindromeRecurcisve("racecar")); // Output - true!
