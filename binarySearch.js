@@ -5,7 +5,7 @@ function binarySearch(sortedArr,key) {
         let middle = Math.floor((start + end) / 2);
         if(sortedArr[middle] == key) {
             return middle;
-        } else if(sortedArr[middle] < key) {
+        } else if(sortedArr[middle] < key) { 
             start = middle + 1;
         } else if(sortedArr[middle] > key) {
             end = middle - 1;
