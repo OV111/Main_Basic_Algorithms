@@ -9,7 +9,6 @@ function moveZerosToEnd(nums) {
     return nums;
 }
 console.log(moveZerosToEnd([0, 1, 0, 3, 12])); // [1,3,12,0,0]
-
 //Alternative Way
 function moveZerosToEnd2(nums) {
     let zeros = nums.filter(x => x === 0);
