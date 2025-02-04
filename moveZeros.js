@@ -14,4 +14,4 @@ function moveZerosToEnd2(nums) {
     let zeros = nums.filter(x => x === 0);
     return [...nums.filter(y => y !== 0), ...zeros];
 }
-console.log(moveZerosToEnd2([1,0,3,2,0,7,0,4])); // [1,3,2,7,4,0,0,0]
+console.log(moveZerosToEnd2([1,0,3,2,0,7,0,4]));
